@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- download_manager -->
+    <string name="download_manager">Download manager</string>
+    <string name="download_install">Install</string>
+    <string name="download_downloading">downloading</string>
+    <string name="download_finishing">Downloaded %1$s%</string>
+    <string name="download_downloaded">Downloaded</string>
+    <string name="download_initial">Initial</string>
+    <string name="download_stopped">Stopped</string>
+    <string name="download_paused">Paused</string>
+    <string name="download_failed">Failed</string>
+    <string name="download_finished">Finished</string>
+    <string name="download_installed">Installed</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_continue">Continue</string>
+    <string name="download_notification">A download task finished</string>
+    <string name="download_click_notify">View download task list</string>
+    <string name="downloading_msg">Downloading…</string>
+    <string name="download_task_added">A download task have been added to queue.</string>
+    <string name="download_invalid_url">Invalid download url</string>
+    <string name="downloaded_installed">Installed</string>
+    <string name="download_delete_task">Delete download task</string>
+    <string name="download_delete_task_file">Delete download task and file</string>
+    <string name="download_deleted_task_ok">Download task  deleted</string>
+    <string name="download_deleted_task_file_ok">Download task and file  deleted</string>
+    <string name="download_file">Downloaded  %1$s</string>
+    <string name="download_speed">Download %1$s percent, speed %2$s KB/S</string>
+    <string name="download_file_not_exist">File not exist</string>
+    <!-- Strongly suggest to change this action string -->
+    <string name="download_list_action">com.zxt.download2.action</string>
+</resources>
