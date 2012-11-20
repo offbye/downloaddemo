@@ -68,8 +68,8 @@ public class DownloadTestActivity extends Activity implements OnClickListener {
             Toast.makeText(this, R.string.download_task1, Toast.LENGTH_SHORT).show();
         } else if (id == R.id.download_add2) {
             DownloadTask downloadTask2 = new DownloadTask(
-                    "http://www.us.apache.org/dist/axis/axis2/java/core/1.6.2/axis2-eclipse-service-plugin-1.6.2.zip",
-                    null, "axis2-eclipse-service-plugin-1.6.2.zip", "axis2  zip", null);
+                    "http://d2.eoemarket.com/upload/apps/2011/1010/49237/apks/2cd660da-5b26-415e-b170-4de445a9eb3e.apk",
+                    null, "FruitNinja.apk", "Fruit Ninja", null);
             DownloadTaskManager.getInstance(this).registerListener(downloadTask2,
                     new DownloadNotificationListener(mContext, downloadTask2));
             DownloadTaskManager.getInstance(this).startDownload(downloadTask2);
@@ -162,12 +162,12 @@ public class DownloadTestActivity extends Activity implements OnClickListener {
                     new DownloadNotificationListener(mContext, downloadTask6));
             DownloadTaskManager.getInstance(this).startDownload(downloadTask6);
         } else if (id == R.id.download_list) {
-            Toast.makeText(this, R.string.go_to_downloading_list, 1).show();
+            //Toast.makeText(this, R.string.go_to_downloading_list, 1).show();
             Intent i = new Intent(this, DownloadListActivity.class);
             i.putExtra(DownloadListActivity.DOWNLOADED, false);
             startActivity(i);
         } else if (id == R.id.downloaded_list) {
-            Toast.makeText(this, R.string.go_to_downloaded_list, 1).show();
+            //Toast.makeText(this, R.string.go_to_downloaded_list, 1).show();
             Intent i2 = new Intent(this, DownloadListActivity.class);
             i2.putExtra(DownloadListActivity.DOWNLOADED, true);
             startActivity(i2);

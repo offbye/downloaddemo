@@ -9,7 +9,7 @@
         android:layout_height="100.0dip"
         android:layout_centerVertical="true"
         android:layout_margin="6.0dip"
-        android:background="#ffcccccc" 
+        android:background="@drawable/download_item_bg" 
         android:padding="2dp" 
         android:scaleType="fitXY"/>
 
