@@ -59,8 +59,6 @@ public class DownloadTestActivity extends Activity implements OnClickListener {
     public void onClick(View v) {
         int id = v.getId();
         if (id == R.id.download_add1) {
-            Toast.makeText(mContext,
-                    Res.getInstance(mContext).getString("download_deleted_task_ok"), 1).show();
             DownloadTask downloadTask = new DownloadTask(
                     "http://apache.etoak.com/ant/ivy/2.3.0-rc1/apache-ivy-2.3.0-rc1-src.zip",
                     null, "apache-ivy.zip", "apache-ivy.zip", null);
@@ -70,6 +68,8 @@ public class DownloadTestActivity extends Activity implements OnClickListener {
             DownloadTask downloadTask2 = new DownloadTask(
                     "http://d2.eoemarket.com/upload/apps/2011/1010/49237/apks/2cd660da-5b26-415e-b170-4de445a9eb3e.apk",
                     null, "FruitNinja.apk", "Fruit Ninja", null);
+            downloadTask2.setThumbnail("file:///android_asset/ninja.png");//use asset image
+
             DownloadTaskManager.getInstance(this).registerListener(downloadTask2,
                     new DownloadNotificationListener(mContext, downloadTask2));
             DownloadTaskManager.getInstance(this).startDownload(downloadTask2);
