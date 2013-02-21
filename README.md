@@ -30,5 +30,5 @@ You can clone the download demo from github. The update will always be pushed he
 git clone  https://github.com/offbye/downloaddemo
 For business use you will need to by a lincense by contact my email offbye@gmail.com
 
-<img src="http://img.my.csdn.net/uploads/201211/21/1353505828_7068.jpg" alt="" style="border: none;"/>
-<img src="http://img.my.csdn.net/uploads/201211/21/1353505882_8971.jpg" alt="" style="border: none;"/>
+<img src="http://img.my.csdn.net/uploads/201211/21/1353505828_7068.jpg" alt="" width="320" style="border: none;"/>
+<img src="http://img.my.csdn.net/uploads/201211/21/1353505882_8971.jpg" alt="" width="320" style="border: none;"/>
