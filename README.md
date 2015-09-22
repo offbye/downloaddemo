@@ -29,7 +29,7 @@ You can change the download task click behavior by extend our DownloadListActivi
 You can clone the download demo from github. The update will always be pushed here.
 git clone  https://github.com/offbye/downloaddemo
 
-Now is opensource under LGPL,you can find the code from:
+Now is opensource under Apache License, you can find the code from:
 https://github.com/offbye/AndroidDownloadManger
 
 <img src="http://img.my.csdn.net/uploads/201211/21/1353505828_7068.jpg" alt="" width="320" style="border: none;"/>
